@@ -5,13 +5,16 @@
   font-family: Inter;
 }
 
+body {
+  background-color: #090b1a;
+}
+
 main {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 12px);
+  min-height: calc(100vh - 14px);
   justify-content: center;
   align-items: center;
-  background-color: #090b1a;
 }
 main .wrapper {
   background-color: #1b1938;
