@@ -27,7 +27,7 @@ body {
 main {
 	display: flex;
 	flex-direction: column;
-	height: calc(100vh - 14px);
+	min-height: calc(100vh - 14px);
 	justify-content: center;
 	align-items: center;
 
