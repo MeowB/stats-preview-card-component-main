@@ -19,13 +19,17 @@ $c-slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
 	font-family: Inter;
 }
 
+body {
+	background-color: $c-very-dark-blue;
+
+}
+
 main {
 	display: flex;
 	flex-direction: column;
-	height: calc(100vh - 12px);
+	height: calc(100vh - 14px);
 	justify-content: center;
 	align-items: center;
-	background-color: $c-very-dark-blue;
 
 	.wrapper {
 		background-color: $c-dark-desaturated-blue;
